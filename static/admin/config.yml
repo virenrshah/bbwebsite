@@ -5,9 +5,9 @@ backend:
 media_folder: media_folder
 
 collections:
-- name: post
-  label: Post
-  folder: posts
+- name: team
+  label: Team
+  folder: team
   create: true
   fields:
     - {name: title, label: Title}
