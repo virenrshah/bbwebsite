@@ -5,7 +5,7 @@ backend:
 media_folder: media_folder
 
 collections:
-- name: team
+- name: src/pages/team
   label: Team
   folder: team
   create: true
