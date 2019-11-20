@@ -1,0 +1,14 @@
+backend:
+  name: github
+  repo: virenrshah/bbwebsite
+
+media_folder: media_folder
+
+collections:
+- name: team
+  label: Team
+  folder: team
+  create: true
+  fields:
+    - {name: title, label: Title}
+    - {name: body, label: Body, widget: markdown}
